@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+	<form method="post" action="process.php">
+		First name:<br>
+		<input type="text" name="first_name">
+		<br>
+		Last name:<br>
+		<input type="text" name="last_name">
+		<br>
+	Phone:<br>
+		<input type="tel" name="phone">
+		<br>
+		CIN:<br>
+        <input type="tel" name="CIN">
+        <br>
+        mail: <br>
+        <input type="mail" name="mail">
+        <br>
+        date de naissance <br>
+        <input type="date" name="born">
+        <br>
+        
+        
+        <br><br>
+		<input type="submit" name="save" value="submit">
+	</form>
+  </body>
+</html>
